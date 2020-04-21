@@ -90,9 +90,9 @@ body {
     padding-top: 30px;
  }
 
- #billboard .header .center a::hover {
-     text-decoration: underline;
-     z-index: 15;
+ #billboard .header .center a:hover {
+    border-bottom: 1px solid #ffffff;
+    z-index: 15;
  }
 
 .promos {
@@ -111,7 +111,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0.75%;
     margin: 0 auto;
 }
 
@@ -146,20 +146,30 @@ body {
     border-right: none;
 }
 
+#footer .wrapper p a:hover,
+#footer .wrapper ul li a:hover {
+    text-decoration: underline;
+}
+
 #footer .bottom {
-    padding: 15px 0;
+    padding: 9px 0;
+}
+
+#footer .wrapper .bottom .copyright{
+  margin-right: 0;
 }
 
 #footer .bottom .piped .last a {
    border-right: 0;
 }
 
+
 /* input forms */
 input[type="search"] {
     width: 100px;
     outline: none;
     background: transparent;
-    border: 1px solid #707070;
+    border: 1px solid #888;
     border-radius: 15px;
     padding: 3px 0 3px 20px;
 }
