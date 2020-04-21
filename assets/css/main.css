@@ -67,9 +67,13 @@ body {
 #billboard .hero {
     position: relative;
     width: 80%;
-    top: 40%;
+    top: 20%;
     margin: 0 auto;
     text-align: center;
+}
+
+#billboard .header {
+ padding: 50px 0;
 }
 
 #billboard .header p a{
@@ -78,6 +82,18 @@ body {
     font-size: 4rem;
     font-weight: normal;
 }
+#billboard .header .center {
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    height: 31px;
+    padding-top: 30px;
+ }
+
+ #billboard .header .center a::hover {
+     text-decoration: underline;
+     z-index: 15;
+ }
 
 .promos {
     width: 100%;
