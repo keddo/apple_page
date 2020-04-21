@@ -55,11 +55,15 @@ body {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
 }
 
+.footer .wrapper ul li {
+  display: inline-block;
+}
+
 .nav ul li:last-child:hover {
   background: none;
 }
 
-#billboard {
+.billboard {
   position: absolute;
   top: 0;
   left: 0;
@@ -71,7 +75,7 @@ body {
   overflow: hidden;
 }
 
-#billboard .hero {
+.billboard .hero {
   position: relative;
   width: 80%;
   top: 20%;
@@ -79,18 +83,18 @@ body {
   text-align: center;
 }
 
-#billboard .header {
+.billboard .header {
   padding: 50px 0;
 }
 
-#billboard .header p a {
+.billboard .header p a {
   text-decoration: none;
   color: #fff;
   font-size: 4rem;
   font-weight: normal;
 }
 
-#billboard .header .center {
+.billboard .header .center {
   position: relative;
   z-index: 10;
   overflow: hidden;
@@ -98,12 +102,12 @@ body {
   padding-top: 30px;
 }
 
-#footer .wrapper p a {
+.footer .wrapper p a {
   text-decoration: none;
   color: #08c;
 }
 
-#footer .wrapper .piped li a {
+.footer .wrapper .piped li a {
   color: #08c;
   text-decoration: none;
   border-right: 1px solid #ccc;
@@ -112,12 +116,12 @@ body {
   line-height: 1.2;
 }
 
-#footer .wrapper p a:hover,
-#footer .wrapper ul li a:hover {
+.footer .wrapper p a:hover,
+.footer .wrapper ul li a:hover {
   text-decoration: underline;
 }
 
-#billboard .header .center a:hover {
+.billboard .header .center a:hover {
   border-bottom: 1px solid #fff;
   visibility: visible;
   z-index: 15;
@@ -135,7 +139,7 @@ body {
   display: flex;
 }
 
-#footer {
+.footer {
   width: 85%;
   position: absolute;
   left: 0;
@@ -144,34 +148,30 @@ body {
   margin: 0 auto;
 }
 
-#footer .wrapper p,
-#footer .wrapper ul {
+.footer .wrapper p,
+.footer .wrapper ul {
   display: inline-block;
 }
 
-#footer .wrapper ul li {
-  display: inline-block;
-}
-
-#footer .wrapper p {
+.footer .wrapper p {
   color: #6e6e6e;
   margin-right: 35px;
   font-size: 0.83em;
 }
 
-#footer .wrapper .piped .worldwide a {
+.footer .wrapper .piped .worldwide a {
   border-right: none;
 }
 
-#footer .bottom {
+.footer .bottom {
   padding: 9px 0;
 }
 
-#footer .wrapper .bottom .copyright {
+.footer .wrapper .bottom .copyright {
   margin-right: 0;
 }
 
-#footer .bottom .piped .last a {
+.footer .bottom .piped .last a {
   border-right: 0;
 }
 
