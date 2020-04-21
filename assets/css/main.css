@@ -91,11 +91,11 @@ body {
 }
 
 #footer {
-    width: 80%;
+    width: 85%;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 5%;
+    bottom: 0;
     margin: 0 auto;
 }
 
@@ -107,6 +107,37 @@ body {
 #footer .wrapper ul li {
     display: inline-block;
 }
+
+#footer .wrapper p {
+    color: #6e6e6e;
+    margin-right: 35px;
+    font-size: 0.83em;
+}
+
+#footer .wrapper p a{
+    text-decoration: none;
+    color: #08c;
+}
+#footer .wrapper .piped li a {
+    color: #08c;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+    padding: 0 7px;
+    font-size: 0.83em;
+    line-height: 1.2;
+}
+#footer .wrapper .piped .worldwide a {
+    border-right: none;
+}
+
+#footer .bottom {
+    padding: 15px 0;
+}
+
+#footer .bottom .piped .last a {
+   border-right: 0;
+}
+
 /* input forms */
 input[type="search"] {
     width: 100px;
