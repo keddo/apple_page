@@ -73,7 +73,7 @@ body {
 .billboard {
   top: 0;
   right: 0;
-  bottom: 35%;
+  bottom: 34.5%;
   width: 100%;
   background: url(../img/your_verse_hero.jpg) no-repeat 50% 100%;
   z-index: 1;
@@ -90,6 +90,10 @@ body {
 
 .billboard .header {
   padding: 50px 0;
+}
+
+.promos ul li a {
+  display: block;
 }
 
 .billboard .header p a {
@@ -139,6 +143,27 @@ body {
 
 .promos ul {
   display: flex;
+}
+
+.promos .promo-img {
+  width: 364px;
+  height: 200px;
+}
+
+.promos .img-iphone5s {
+  background: url(../img/promo_iphone5s.jpg) no-repeat center center/cover;
+}
+
+.promos .img-iphone5c {
+  background: url(../img/promo_iphone5c.jpg) no-repeat center center/cover;
+}
+
+.promos .img-30-years {
+  background: url(../img/promo_30_years.jpg) no-repeat center center/cover;
+}
+
+.promos .img-supplier {
+  background: url(../img/promo_supplier_responsibility.jpg) no-repeat center center/cover;
 }
 
 .footer {
