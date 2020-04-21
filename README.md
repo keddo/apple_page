@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Go Live Demo](https://arcane-mountain-71548.herokuapp.com/)
+[Go Live Demo](https://github.com/keddo/apple_page/tree/apple-home)
 
 
 ## Getting Started
